@@ -1,0 +1,4 @@
+.brand-logo img {
+    width: 150px !important;  /* kerakli kenglik */
+    height: auto !important;  /* nisbatni saqlash uchun */
+}
