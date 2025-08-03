@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-03 15:02+0500\n"
+"POT-Creation-Date: 2025-08-03 17:32+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: .\contact\models.py:6
 msgid "Name"
@@ -30,7 +31,7 @@ msgstr "Номер телефона"
 msgid "Message"
 msgstr "Сообщение"
 
-#: .\contact\models.py:9 .\services\models.py:9 .\videos\models.py:10
+#: .\contact\models.py:9 .\services\models.py:9 .\videos\models.py:9
 msgid "Created at"
 msgstr "Создано"
 
@@ -106,26 +107,29 @@ msgstr "Сервисы"
 msgid "Video URL"
 msgstr "URL видео"
 
-#: .\videos\models.py:9
-msgid "Video File"
-msgstr "Видео файл"
-
-#: .\videos\models.py:15
+#: .\videos\models.py:14
 msgid "Video "
 msgstr "Видео "
 
-#: .\videos\models.py:16
+#: .\videos\models.py:15
 msgid "Videos"
 msgstr "Видео"
 
-#: .\videos\models.py:23
-msgid "Please provide either a video URL or a video file."
+#: .\videos\models.py:21
+#, fuzzy
+#| msgid "Please provide either a video URL or a video file."
+msgid "Please provide either a video URL."
 msgstr "Пожалуйста, укажите либо URL видео, либо видео файл."
 
-#: .\videos\models.py:25
-msgid "Please provide only one: either a video URL or a video file, not both."
-msgstr "Пожалуйста, укажите только одно: либо URL видео, либо видео файл, не оба одновременно."
-
-#: .\videos\models.py:32
+#: .\videos\models.py:27
 msgid "Only one video instance is allowed."
 msgstr "Разрешена только одна запись видео."
+
+#~ msgid "Video File"
+#~ msgstr "Видео файл"
+
+#~ msgid ""
+#~ "Please provide only one: either a video URL or a video file, not both."
+#~ msgstr ""
+#~ "Пожалуйста, укажите только одно: либо URL видео, либо видео файл, не оба "
+#~ "одновременно."

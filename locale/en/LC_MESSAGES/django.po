@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-03 15:02+0500\n"
+"POT-Creation-Date: 2025-08-03 17:32+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English <en@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Phone number"
 msgid "Message"
 msgstr "Message"
 
-#: .\contact\models.py:9 .\services\models.py:9 .\videos\models.py:10
+#: .\contact\models.py:9 .\services\models.py:9 .\videos\models.py:9
 msgid "Created at"
 msgstr "Created at"
 
@@ -106,26 +106,20 @@ msgstr "Services"
 msgid "Video URL"
 msgstr "Video URL"
 
-#: .\videos\models.py:9
-msgid "Video File"
-msgstr "Video File"
-
-#: .\videos\models.py:15
+#: .\videos\models.py:14
 msgid "Video "
 msgstr "Video "
 
-#: .\videos\models.py:16
+#: .\videos\models.py:15
 msgid "Videos"
 msgstr "Videos"
 
-#: .\videos\models.py:23
-msgid "Please provide either a video URL or a video file."
-msgstr "Please provide either a video URL or a video file."
+#: .\videos\models.py:21
+#, fuzzy
+msgid "Please provide either a video URL."
+msgstr "Please provide either a video URL."
 
-#: .\videos\models.py:25
-msgid "Please provide only one: either a video URL or a video file, not both."
-msgstr "Please provide only one: either a video URL or a video file, not both."
-
-#: .\videos\models.py:32
+#: .\videos\models.py:27
 msgid "Only one video instance is allowed."
 msgstr "Only one video instance is allowed."
+

@@ -6,7 +6,6 @@ from django.core.exceptions import ValidationError
 class Video(models.Model):
     video_url = models.URLField(unique=True, null=True, blank=True, verbose_name=_('Video URL'))
     title = models.CharField(max_length=500, verbose_name=_('Title'))
-    video_file = models.FileField(upload_to='video_files/', null=True, blank=True, verbose_name=_('Video File'))
     created_at = models.DateTimeField(auto_now_add=True, verbose_name=_('Created at'))
 
     objects = models.Manager()
@@ -18,13 +17,9 @@ class Video(models.Model):
 
 
     def clean(self):
-        # 1. video_url yoki video_file dan faqat bittasi bo'lishi kerak, hech bo'lmasa bittasi to'ldirilgan bo'lsin
-        if not self.video_url and not self.video_file:
-            raise ValidationError(_('Please provide either a video URL or a video file.'))
-        if self.video_url and self.video_file:
-            raise ValidationError(_('Please provide only one: either a video URL or a video file, not both.'))
+        if not self.video_url:
+            raise ValidationError(_('Please provide either a video URL.'))
 
-        # 2. bazada boshqa Video obyektlari mavjudligini tekshirish (faqat bittasi bo'lishi kerak)
         qs = Video.objects.all()
         if self.pk:
             qs = qs.exclude(pk=self.pk)
