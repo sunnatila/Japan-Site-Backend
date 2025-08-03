@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 11:22+0500\n"
+"POT-Creation-Date: 2025-08-03 15:02+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English <en@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: .\contact\models.py:6
 msgid "Name"
 msgstr "Name"
@@ -29,27 +30,27 @@ msgstr "Phone number"
 msgid "Message"
 msgstr "Message"
 
-#: .\contact\models.py:9 .\services\models.py:9
+#: .\contact\models.py:9 .\services\models.py:9 .\videos\models.py:10
 msgid "Created at"
 msgstr "Created at"
 
 #: .\contact\models.py:17
 msgid "Contact "
-msgstr "Contact"
+msgstr "Contact "
 
 #: .\contact\models.py:18
 msgid "Contacts"
 msgstr "Contacts"
 
-#: .\core\settings.py:121
+#: .\core\settings.py:124
 msgid "Russian"
 msgstr "Russian"
 
-#: .\core\settings.py:122
+#: .\core\settings.py:125
 msgid "Japanese"
 msgstr "Japanese"
 
-#: .\core\settings.py:123
+#: .\core\settings.py:126
 msgid "English"
 msgstr "English"
 
@@ -63,13 +64,13 @@ msgstr "Answer"
 
 #: .\faq\models.py:15
 msgid "FAQ "
-msgstr "FAQ"
+msgstr "FAQ "
 
 #: .\faq\models.py:16
 msgid "FAQs"
 msgstr "FAQs"
 
-#: .\products\models.py:5 .\services\models.py:7
+#: .\products\models.py:5 .\services\models.py:7 .\videos\models.py:8
 msgid "Title"
 msgstr "Title"
 
@@ -87,7 +88,7 @@ msgstr "Image"
 
 #: .\products\models.py:17
 msgid "Product "
-msgstr "Product"
+msgstr "Product "
 
 #: .\products\models.py:18
 msgid "Products"
@@ -95,8 +96,36 @@ msgstr "Products"
 
 #: .\services\models.py:17
 msgid "Service "
-msgstr "Service"
+msgstr "Service "
 
 #: .\services\models.py:18
 msgid "Services"
 msgstr "Services"
+
+#: .\videos\models.py:7
+msgid "Video URL"
+msgstr "Video URL"
+
+#: .\videos\models.py:9
+msgid "Video File"
+msgstr "Video File"
+
+#: .\videos\models.py:15
+msgid "Video "
+msgstr "Video "
+
+#: .\videos\models.py:16
+msgid "Videos"
+msgstr "Videos"
+
+#: .\videos\models.py:23
+msgid "Please provide either a video URL or a video file."
+msgstr "Please provide either a video URL or a video file."
+
+#: .\videos\models.py:25
+msgid "Please provide only one: either a video URL or a video file, not both."
+msgstr "Please provide only one: either a video URL or a video file, not both."
+
+#: .\videos\models.py:32
+msgid "Only one video instance is allowed."
+msgstr "Only one video instance is allowed."

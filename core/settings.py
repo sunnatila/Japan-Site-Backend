@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'products',
     'faq',
     'services',
+    'videos',
 ]
 
 MIDDLEWARE = [

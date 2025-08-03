@@ -33,6 +33,7 @@ urlpatterns += i18n_patterns(
     path('products/', include('products.urls')),
     path('faqs/', include('faq.urls')),
     path('services/', include('services.urls')),
+    path('videos/', include('videos.urls')),
 )
 
 if settings.DEBUG:
