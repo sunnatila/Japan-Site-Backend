@@ -1,8 +1,8 @@
 from environs import Env
-
+import os
 
 env = Env()
-env.read_env()
+env.read_env(path=os.path.join('envs', '.env'))
 
 
 BOT_TOKEN = env.str("BOT_TOKEN")
