@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -e
 
 echo "Waiting for MySQL to start..."

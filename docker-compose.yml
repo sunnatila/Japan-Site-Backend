@@ -1,7 +1,5 @@
-version: '3.8'
-
 services:
-  web:
+  backend:
     build:
       context: .
       dockerfile: dockerfiles/django/Dockerfile
@@ -14,11 +12,12 @@ services:
       - media_volume:/app/media
     env_file:
       - envs/.env
+    ports:
+      - "8000:8000"
     depends_on:
       db:
         condition: service_healthy
-    ports:
-      - "8000:8000"
+
     networks:
       - japan_network
 
@@ -39,6 +38,7 @@ services:
     networks:
       - japan_network
 
+
   japan_bot:
     build:
       context: .
@@ -50,6 +50,8 @@ services:
     env_file:
       - envs/.env
     restart: always
+    depends_on:
+      - db
     networks:
       - japan_network
 

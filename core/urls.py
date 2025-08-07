@@ -26,6 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('i18n/', include('django.conf.urls.i18n')),
     path('contact/', include('contact.urls')),
+    path("", include("shared.urls")),
 ]
 
 

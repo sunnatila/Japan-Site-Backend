@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-03 17:32+0500\n"
+"POT-Creation-Date: 2025-08-07 16:57+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English <en@li.org>\n"
@@ -42,15 +42,15 @@ msgstr "Contact "
 msgid "Contacts"
 msgstr "Contacts"
 
-#: .\core\settings.py:124
+#: .\core\settings.py:136
 msgid "Russian"
 msgstr "Russian"
 
-#: .\core\settings.py:125
+#: .\core\settings.py:137
 msgid "Japanese"
 msgstr "Japanese"
 
-#: .\core\settings.py:126
+#: .\core\settings.py:138
 msgid "English"
 msgstr "English"
 
@@ -102,6 +102,14 @@ msgstr "Service "
 msgid "Services"
 msgstr "Services"
 
+#: .\shared\models.py:7
+msgid "Added time"
+msgstr "Added time"
+
+#: .\shared\models.py:8
+msgid "Changed time"
+msgstr "Changed time"
+
 #: .\videos\models.py:7
 msgid "Video URL"
 msgstr "Video URL"
@@ -122,4 +130,3 @@ msgstr "Please provide either a video URL."
 #: .\videos\models.py:27
 msgid "Only one video instance is allowed."
 msgstr "Only one video instance is allowed."
-

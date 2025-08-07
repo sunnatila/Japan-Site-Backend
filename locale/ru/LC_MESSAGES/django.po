@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-03 17:32+0500\n"
+"POT-Creation-Date: 2025-08-07 16:57+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -43,15 +43,15 @@ msgstr "Контакт "
 msgid "Contacts"
 msgstr "Контакты"
 
-#: .\core\settings.py:124
+#: .\core\settings.py:136
 msgid "Russian"
 msgstr "Русский"
 
-#: .\core\settings.py:125
+#: .\core\settings.py:137
 msgid "Japanese"
 msgstr "Японский"
 
-#: .\core\settings.py:126
+#: .\core\settings.py:138
 msgid "English"
 msgstr "Английский"
 
@@ -102,6 +102,14 @@ msgstr "Сервис "
 #: .\services\models.py:18
 msgid "Services"
 msgstr "Сервисы"
+
+#: .\shared\models.py:7
+msgid "Added time"
+msgstr "Добавленное время"
+
+#: .\shared\models.py:8
+msgid "Changed time"
+msgstr "Измененное время"
 
 #: .\videos\models.py:7
 msgid "Video URL"
